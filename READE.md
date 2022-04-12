@@ -6,23 +6,27 @@ Create three files
 
 
 1) .gitconfig file
+-------------------------------------------------------
 [includeIf "gitdir:~/IdeaProjects/personal/"]
   path = ~/.gitconfig-personal
 [includeIf "gitdir:~/IdeaProjects/work/"]
   path = ~/.gitconfig-work
 
+-------------------------------------------------------
+
 
 2) .gitconfig-personal
+-------------------------------------------------------
 [user]
 	name = User Name
 	email = User Email
 
 [core]
   sshCommand = "ssh -i ~/.ssh/personal_id_rsa"
-
+-------------------------------------------------------
 
 3) .gitconfig-work
-
+-------------------------------------------------------
 [user]
 	name = User Name
 	email = User Email
@@ -30,7 +34,7 @@ Create three files
 [core]
   sshCommand = "ssh -i ~/.ssh/work_id_rsa"
 
-
+-------------------------------------------------------
 Create SSH Key
 
 1) Personal 
