@@ -8,7 +8,7 @@ Create three files
 1) .gitconfig file
 [includeIf "gitdir:~/IdeaProjects/personal/"]
   path = ~/.gitconfig-personal
-[includeIf "gitdir:~/IdeaProjects/renner/"]
+[includeIf "gitdir:~/IdeaProjects/work/"]
   path = ~/.gitconfig-work
 
 
